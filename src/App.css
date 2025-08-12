@@ -1,3 +1,9 @@
+/* Ensure hero and CTA button wrappers are always clickable and above overlays */
+.above-hero-btns, .above-cta-btns {
+  position: relative;
+  z-index: 1000;
+  pointer-events: auto;
+}
 @import "tailwindcss";
 @import "tw-animate-css";
 
