@@ -551,10 +551,10 @@ function App() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-pink-400 transition-colors">Hair Styling</a></li>
-                <li><a href="#" className="hover:text-pink-400 transition-colors">Hair Treatment</a></li>
-                <li><a href="#" className="hover:text-pink-400 transition-colors">Hair Color</a></li>
-                <li><a href="#" className="hover:text-pink-400 transition-colors">New Arrivals</a></li>
+                <li><a href="#products" className="hover:text-pink-400 transition-colors">Hair Styling</a></li>
+                <li><a href="#products" className="hover:text-pink-400 transition-colors">Hair Treatment</a></li>
+                <li><a href="#products" className="hover:text-pink-400 transition-colors">Hair Color</a></li>
+                <li><a href="#products" className="hover:text-pink-400 transition-colors">New Arrivals</a></li>
               </ul>
             </div>
             <div>
