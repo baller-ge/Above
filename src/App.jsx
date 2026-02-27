@@ -345,13 +345,13 @@ function App() {
               See how ABOVE products transform hair and boost confidence
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[modelImage1, modelImage2, modelImage3, modelImage4, galleryImage1, galleryImage3, galleryImage4, galleryImage5, galleryImage6, galleryImage7, galleryImage8, galleryImage9].map((image, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[modelImage4, galleryImage1, galleryImage5, galleryImage6, galleryImage7, galleryImage9].map((image, index) => (
               <div key={index} className="relative group above-hover-scale">
                 <img 
                   src={image} 
                   alt={`ABOVE Hair Transformation ${index + 1}`}
-                  className="w-full h-80 object-cover rounded-2xl above-shadow-pink"
+                  className="w-full aspect-[4/5] object-cover rounded-2xl above-shadow-pink"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 text-white">
