@@ -346,7 +346,7 @@ function App() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[modelImage4, galleryImage1, galleryImage5, galleryImage6, galleryImage7, galleryImage9].map((image, index) => (
+            {[galleryImage1, galleryImage6, galleryImage7, galleryImage9].map((image, index) => (
               <div key={index} className="relative group above-hover-scale">
                 <img 
                   src={image} 
