@@ -451,10 +451,7 @@ function App() {
                     ABOVE PLAZA, International Centre For Commerce, Trade Fair, Complex, Badagry Exp. Way, Lagos Nigeria P.O. Box 2290 Festac Town, Lagos
                   </p>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-pink-700 dark:text-pink-300 mb-1">BRANCH:</h3>
-                  <p>Plot 2, Assembly Close, Satellite Town, Lagos.</p>
-                </div>
+
                 <div>
                   <h3 className="font-semibold text-pink-700 dark:text-pink-300 mb-1">E-mail:</h3>
                   <p>
